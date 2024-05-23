@@ -33,4 +33,4 @@ node index.js
 ```
 # Test d'API sur Insomnia
 
-![alt text](img/image.png)
+![alt text](img/image-2.png)
