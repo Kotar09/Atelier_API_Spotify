@@ -1,0 +1,9 @@
+# Node.js 
+node_modules/
+
+package.json
+
+package-lock.json
+
+#  Fichier de configuration
+config/db.config.js
