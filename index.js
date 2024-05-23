@@ -9,11 +9,11 @@ const playlistContientTrackRoutes = require('./routes/playlist_contient_track.ro
 
 app.use(express.json());
 
-app.use('/api', artistRoutes);
-app.use('/api', albumRoutes);
-app.use('/api', playlistRoutes);
-app.use('/api', trackRoutes);
-app.use('/api', playlistContientTrackRoutes);
+app.use('/api/v1', artistRoutes);
+app.use('/api/v1', albumRoutes);
+app.use('/api/v1', playlistRoutes);
+app.use('/api/v1', trackRoutes);
+app.use('/api/v1', playlistContientTrackRoutes);
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
